@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{%load static%}
+{%block content%}
+<div class="container">
+    <h1>Our Research</h1>
+    <div class="paper">
+        <h2>Deepfake Detection using ResNext50 and LSTM</h2>
+        <p>
+            Our research paper presents an innovative approach that combines the power of ResNext50 for feature extraction with LSTM for sequential analysis. This dual strategy enhances the detection accuracy of manipulated media.
+        </p>
+        <a href="../static/images/respaper2__Copy_%20(3).pdf" target="_blank" class="button">Download Research Paper (PDF)</a>
+    </div>
+    <div class="pdf-container">
+        <embed src="../static/images/respaper2__Copy_%20(3).pdf" type="application/pdf" width="100%" height="100%" />
+    </div>
+</div>
+{%endblock%}

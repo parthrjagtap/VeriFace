@@ -1,0 +1,140 @@
+
+body {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("/static/images/background1.png");
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+section{
+    padding-top: 60px;
+}
+
+.width-300{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+.width-400{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+.width-500{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+#videos{
+    display: none;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.preprocess {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+#preprocessed_images {
+  white-space: nowrap;
+  width: auto;
+  height: 250px;
+  padding: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  box-shadow: 0 0px 9px 2px #ccc;
+}
+
+#faces_images {
+    white-space: nowrap;
+    width: auto;
+    height: 150px;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+.faces {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+#heatmap_images{
+    white-space: nowrap;
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-shadow: 0 0px 9px 2px #ccc;
+    margin-bottom: 20px;
+}
+
+.heat-map {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+/* span.spinner-border {
+    display: none;
+} */
+ header {
+            background-color: #242424; !important;
+            padding: 20px 0;
+            border-bottom: 1px solid #e0e0e0;
+            text-align: center;
+        }
+        header nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header nav img {
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            font-weight: 600;
+        }
+        .links{
+        margin: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            align-content: space-between;
+            justify-content: space-evenly;
+            align-items: flex-end;
+            background: #242424;
+            padding: 20px 0;
+            border-bottom: 1px solid #e0e0e0;
+            text-align: center;
+        }
